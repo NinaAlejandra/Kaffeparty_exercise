@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>KaffeFöretaget</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/custom.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-md navbar-light fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><img
+              class="logo me-3"
+              src="./images/logo-coffecup.png"
+              alt="logo for company"
+              width="20%"
+              height="20%"
+            />Sköna Bönan</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse"
+            aria-controls="navbarCollapse"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Hem</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="products.html">Produkter</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">Om Oss</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Sök"
+                aria-label="Search"
+              />
+              <button class="btn btn-light btn-outline-dark" type="submit">
+                Sök
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Bootstrap Carousel Section -->
+    <main class="ms-4">
+      <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="3"
+            aria-label="Slide 4"
+          ></button>
+        </div>
+
+        <div class="carousel-inner pt-5">
+          <!-- Slide 1 -->
+          <div class="carousel-item active">
+            <img
+              src="./images/stockphoto2.jpg"
+              class="featurette-image img-fluid mx-auto"
+              alt="Beskrivning av bilden"
+              width="100%"
+              height="100%"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+            />
+            <rect width="100%" height="100%" fill="#777" />
+
+            <div class="container">
+              <div class="carousel-caption text-start">
+                <h1>Vilka är vi?</h1>
+                <p>Vi är ett startup som...</p>
+                <p>
+                  <a class="btn btn-lg btn-primary" href="#del1">Läs mer</a>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="carousel-item">
+            <img
+              src="./images/stockphoto3.jpg"
+              class="featurette-image img-fluid mx-auto"
+              alt="Beskrivning av bilden"
+              width="100%"
+              height="100%"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+            />
+            <rect width="100%" height="100%" fill="#777" />
+            <div class="container">
+              <div class="carousel-caption">
+                <h1>Vad gör vi?</h1>
+                <p>Vi gör speciella kaffe bönor som...</p>
+                <p>
+                  <a class="btn btn-lg btn-primary" href="#del2">Läs mer</a>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 3 -->
+          <div class="carousel-item">
+            <img
+              src="./images/stockphoto5.jpg"
+              class="featurette-image img-fluid mx-auto"
+              alt="Beskrivning av bilden"
+              width="100%"
+              height="100%"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+            />
+            <rect width="100%" height="100%" fill="#777" />
+            <div class="container">
+              <div class="carousel-caption">
+                <h1>Varför ska ni välja oss?</h1>
+                <p>Ni bör välja oss för att...</p>
+                <p>
+                  <a class="btn btn-lg btn-primary" href="#del3">Läs mer</a>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 4 -->
+          <div class="carousel-item">
+            <img
+              src="./images/stockphoto4.jpg"
+              class="featurette-image img-fluid mx-auto"
+              alt="Beskrivning av bilden"
+              width="100%"
+              height="100%"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+            />
+            <rect width="100%" height="100%" fill="#777" />
+            <div class="container">
+              <div class="carousel-caption text-end">
+                <h1>Hur går det till?</h1>
+                <p>Läs om våra Kaffepartys.</p>
+                <p>
+                  <a class="btn btn-lg btn-primary" href="#del4">Läs mer</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Carousel Controls -->
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Föregående</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Nästa</span>
+        </button>
+      </div>
+
+      <!-- START THE FEATURETTES -->
+
+      <hr class="featurette-divider" />
+
+      <div id="del1" class="row featurette">
+        <div class="col-md-7">
+          <h3 class="featurette-heading">Vilka är vi?</h3>
+          <p class="lead">
+            Faucibus scelerisque eleifend donec pretium vulputate sapien.
+            Egestas pretium aenean pharetra magna. Sit amet est placerat in
+            egestas erat imperdiet. Nunc sed velit dignissim sodales ut eu sem
+            integer. Amet consectetur adipiscing elit duis tristique
+            sollicitudin nibh. Diam phasellus vestibulum lorem sed risus
+            ultricies tristique. Amet consectetur adipiscing elit ut aliquam.
+            Adipiscing elit duis tristique sollicitudin nibh sit amet commodo
+            nulla. Quis varius quam quisque id diam vel quam elementum pulvinar.
+            Aliquet sagittis id consectetur purus ut. Pellentesque habitant
+            morbi tristique senectus et netus et malesuada. Ipsum dolor sit amet
+            consectetur adipiscing elit. Eget dolor morbi non arcu risus.
+          </p>
+        </div>
+        <div class="col-md-5">
+          <img
+            class="featurette-image img-fluid mx-auto"
+            src="./images/stockphoto2.jpg"
+            alt="Beskrivande text om din bild"
+            width="500"
+            height="500"
+          />
+        </div>
+      </div>
+
+      <hr class="featurette-divider" />
+
+      <div id="del2" class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <h3 class="featurette-heading">Vad gör vi?</h3>
+          <p class="lead">
+            Tincidunt vitae semper quis lectus nulla. Vulputate enim nulla
+            aliquet porttitor lacus luctus accumsan. Elementum facilisis leo vel
+            fringilla est ullamcorper eget. Neque gravida in fermentum et
+            sollicitudin ac orci. Lectus urna duis convallis convallis tellus id
+            interdum. Auctor urna nunc id cursus metus aliquam eleifend mi. Eu
+            scelerisque felis imperdiet proin fermentum leo. Fermentum et
+            sollicitudin ac orci phasellus. Lacus sed viverra tellus in hac
+            habitasse platea. Risus pretium quam vulputate dignissim suspendisse
+            in est ante in. Porttitor rhoncus dolor purus non. Fringilla est
+            ullamcorper eget nulla facilisi etiam dignissim. Ullamcorper velit
+            sed ullamcorper morbi tincidunt ornare massa eget egestas. Non
+            sodales neque sodales ut etiam. Suscipit adipiscing bibendum est
+            ultricies. Scelerisque eu ultrices vitae auctor eu augue ut.
+          </p>
+        </div>
+        <div class="col-md-5 order-md-1">
+          <img
+            class="featurette-image img-fluid mx-auto"
+            src="./images/stockphoto3.jpg"
+            alt="Beskrivande text om din bild"
+            width="500"
+            height="500"
+          />
+        </div>
+      </div>
+
+      <hr class="featurette-divider" />
+
+      <div id="del3" class="row featurette">
+        <div class="col-md-7">
+          <h3 class="featurette-heading">Varför ska ni välja oss?</h3>
+          <p class="lead">
+            Tincidunt vitae semper quis lectus nulla. Vulputate enim nulla
+            aliquet porttitor lacus luctus accumsan. Elementum facilisis leo vel
+            fringilla est ullamcorper eget. Neque gravida in fermentum et
+            sollicitudin ac orci. Lectus urna duis convallis convallis tellus id
+            interdum. Auctor urna nunc id cursus metus aliquam eleifend mi. Eu
+            scelerisque felis imperdiet proin fermentum leo. Fermentum et
+            sollicitudin ac orci phasellus. Lacus sed viverra tellus in hac
+            habitasse platea. Risus pretium quam vulputate dignissim suspendisse
+            in est ante in. Porttitor rhoncus dolor purus non. Fringilla est
+            ullamcorper eget nulla facilisi etiam dignissim. Ullamcorper velit
+            sed ullamcorper morbi tincidunt ornare massa eget egestas. Non
+            sodales neque sodales ut etiam. Suscipit adipiscing bibendum est
+            ultricies. Scelerisque eu ultrices vitae auctor eu augue ut.
+          </p>
+        </div>
+        <div class="col-md-5">
+          <img
+            class="featurette-image img-fluid mx-auto"
+            src="./images/stockphoto5.jpg"
+            alt="Beskrivande text om din bild"
+            width="500"
+            height="500"
+          />
+        </div>
+      </div>
+
+      <hr class="featurette-divider" />
+
+      <div id="del4" class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <h3 class="featurette-heading">Kaffeparty, så går det till.</h3>
+          <p class="lead">
+            Est velit egestas dui id ornare arcu odio ut sem. Id interdum velit
+            laoreet id donec ultrices tincidunt. Mollis nunc sed id semper
+            risus. Ornare arcu dui vivamus arcu felis bibendum ut tristique.
+            Curabitur vitae nunc sed velit. Ut diam quam nulla porttitor massa
+            id. Sed tempus urna et pharetra pharetra. Enim sed faucibus turpis
+            in. Vitae turpis massa sed elementum. Iaculis nunc sed augue lacus
+            viverra vitae. Sollicitudin tempor id eu nisl nunc mi. Egestas
+            maecenas pharetra convallis posuere morbi leo urna molestie at. Amet
+            nulla facilisi morbi tempus iaculis urna id volutpat lacus. A erat
+            nam at lectus urna duis convallis convallis tellus. Arcu dui vivamus
+            arcu felis bibendum ut tristique et.
+          </p>
+        </div>
+        <div class="col-md-5 order-md-1">
+          <img
+            class="featurette-image img-fluid mx-auto"
+            src="./images/stockphoto4.jpg"
+            alt="Beskrivande text om din bild"
+            width="500"
+            height="500"
+          />
+        </div>
+      </div>
+
+      <hr class="featurette-divider" />
+
+      <!-- FOOTER -->
+      <footer class="bg-dark text-white text-center py-3">
+        <div class="container">
+          <p class="float-end"><a href="#">Back to top</a></p>
+          <p>
+            &copy; 2023 Sköna Bönan | Webmaster: Nina Rivera &middot;
+            <a href="#">Privacy</a> &middot; <a href="#">Terms</a>
+          </p>
+        </div>
+      </footer>
+    </main>
+
+    <!-- Include Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
